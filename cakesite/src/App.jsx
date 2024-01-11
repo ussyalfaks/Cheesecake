@@ -63,33 +63,6 @@ function App() {
                     </span>
                   </div>
                 </div>
-
-
-
-    {/* <div className="flex items-stretch gap-3">
-      <button className="text-white text-base font-semibold leading-5 whitespace-nowrap justify-center items-stretch shadow bg-yellow-900 grow px-8 py-6 rounded-[100px]">
-        Get Started
-      </button>
-      <div className="border shadow flex grow basis-[0%] flex-col justify-center items-stretch px-5 py-5 rounded-[100px] border-solid border-yellow-950">
-        <span className="items-stretch flex justify-between gap-1.5">
-          <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/f4817b140a2710e95f61cfe56c41e2147ee0fd3c08a8e1d02a494fddb1311af9?apiKey=1bcc27728ab244268fc16ff60580b199&"
-            className="aspect-square object-contain object-center w-5 fill-stone-600 overflow-hidden shrink-0 max-w-full"
-            alt=""
-          />
-          <a
-            href="#"
-            className="text-stone-700 text-base font-semibold leading-5 grow whitespace-nowrap self-start"
-            aria-label="Watch Demo"
-            role="button"
-          >
-            Watch Demo
-          </a>
-        </span>
-      </div>
-    </div> */}
-
               </span>
           <div className="flex  flex-col items-stretch w-[50%] ml-5 max-md:w-full max-md:ml-0">
             <div className="flex-col overflow-hidden relative flex min-h-[500px] justify-center mt-5 px-16 py-12 items-end max-md:max-w-full max-md:mt-5 max-md:px-5">
