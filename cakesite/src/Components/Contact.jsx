@@ -27,7 +27,7 @@ function ContactUs() {
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/20e97af8bd1bee5fb46146a6578628f8350c0952c2286692bf7d7988629daf8d?apiKey=1bcc27728ab244268fc16ff60580b199&"
-                className="aspect-[5.95] object-contain object-center w-64 overflow-hidden max-w-full"
+                className="aspect-[5.95] cursor-pointer object-contain object-center w-64 overflow-hidden max-w-full"
                 alt="Logo"
               />
             
@@ -35,26 +35,23 @@ function ContactUs() {
           </div>
           <div className="flex flex-col items-stretch w-2/5 ml-5 max-md:w-full max-md:ml-0">
             <div className="flex flex-col items-stretch my-auto max-md:mt-10">
-              <label
-                htmlFor="name"
+              <input
+                 type="name" placeholder='Name'
                 className="text-neutral-500 text-xl whitespace-nowrap shadow-sm bg-stone-50 justify-center pl-5 pr-16 py-6 rounded-[60px] items-start max-md:pr-5"
-              >
-                Name
-              </label>
-              <label
-                htmlFor="email"
-                className="text-neutral-500 text-center text-xl whitespace-nowrap shadow-sm bg-stone-50 justify-center mt-5 pl-6 pr-16 py-6 rounded-[60px] items-start max-md:px-5"
-              >
-                Email
-              </label>
-              <label
-                htmlFor="message"
-                className="text-neutral-500 text-center text-xl whitespace-nowrap shadow-sm bg-stone-50 mt-7 pl-6 pr-16 pt-7 pb-24 rounded-3xl items-start max-md:pb-10 max-md:px-5"
-              >
-                Your Message...
-              </label>
+              />
+              
+              <input
+                type="email" placeholder='Email'
+                className="text-neutral-500 text-xl whitespace-nowrap shadow-sm bg-stone-50 justify-center mt-5 pl-6 pr-16 py-6 rounded-[60px] items-start max-md:px-5"
+              />
+              
+              <textarea
+                type="text" placeholder='message'
+                className="text-neutral-500 text-xl whitespace-nowrap shadow-sm bg-stone-50 mt-7 pl-6 pr-16 pt-7 pb-24 rounded-3xl items-start max-md:pb-10 max-md:px-5"
+              />
+             
               <button
-                className="text-black text-center text-2xl whitespace-nowrap shadow-sm bg-amber-400 justify-center items-center mt-6 px-16 py-7 rounded-[60px] max-md:px-5"
+                className="text-black text-center cursor-pointer text-2xl whitespace-nowrap shadow-sm bg-amber-400 justify-center items-center mt-6 px-16 py-7 rounded-[60px] max-md:px-5"
                 aria-label="Contact Us button"
               >
                 Contact us now
