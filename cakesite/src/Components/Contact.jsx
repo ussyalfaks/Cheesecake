@@ -37,21 +37,21 @@ function ContactUs() {
             <div className="flex flex-col items-stretch my-auto max-md:mt-10">
               <input
                  type="name" placeholder='Name'
-                className="text-neutral-500 text-xl whitespace-nowrap shadow-sm bg-stone-50 justify-center pl-5 pr-16 py-6 rounded-[60px] items-start max-md:pr-5"
+                className="text-neutral-500 outline-none text-xl whitespace-nowrap shadow-sm bg-stone-50 justify-center pl-5 pr-16 py-6 rounded-[60px] items-start max-md:pr-5"
               />
               
               <input
                 type="email" placeholder='Email'
-                className="text-neutral-500 text-xl whitespace-nowrap shadow-sm bg-stone-50 justify-center mt-5 pl-6 pr-16 py-6 rounded-[60px] items-start max-md:px-5"
+                className="text-neutral-500 outline-none text-xl whitespace-nowrap shadow-sm bg-stone-50 justify-center mt-5 pl-6 pr-16 py-6 rounded-[60px] items-start max-md:px-5"
               />
               
               <textarea
                 type="text" placeholder='message'
-                className="text-neutral-500 text-xl whitespace-nowrap shadow-sm bg-stone-50 mt-7 pl-6 pr-16 pt-7 pb-24 rounded-3xl items-start max-md:pb-10 max-md:px-5"
+                className="text-neutral-500 outline-none text-xl whitespace-nowrap shadow-sm bg-stone-50 mt-7 pl-6 pr-16 pt-7 pb-24 rounded-3xl items-start max-md:pb-10 max-md:px-5"
               />
              
               <button
-                className="text-black text-center cursor-pointer text-2xl whitespace-nowrap shadow-sm bg-amber-400 justify-center items-center mt-6 px-16 py-7 rounded-[60px] max-md:px-5"
+                className="text-black text-center cursor-pointer text-2xl whitespace-nowrap shadow-sm bg-amber-400 hover:bg-amber-500 justify-center items-center mt-6 px-16 py-7 rounded-[60px] max-md:px-5"
                 aria-label="Contact Us button"
               >
                 Contact us now
