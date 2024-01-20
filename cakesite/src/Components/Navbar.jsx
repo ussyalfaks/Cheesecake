@@ -18,7 +18,7 @@ function Navbar() {
               <div className="text-white cursor-pointer text-base font-semibold self-center my-auto">Blog</div>
               <div className="text-white cursor-pointer text-base font-semibold self-center grow whitespace-nowrap my-auto">Contact</div>
             </nav>
-             <span className=" text-stone-700 text-base font-medium whitespace-nowrap justify-center items-stretch mr-36 px-6 py-4 rounded-[38px] border-2 border-solid border-stone-700 max-md:mr-2.5 max-md:mb-10 max-md:px-5">
+             <span className=" text-stone-700 cursor-pointer text-base font-medium whitespace-nowrap justify-center items-stretch mr-36 px-6 py-4 rounded-[38px] border-2 border-solid border-stone-700 max-md:mr-2.5 max-md:mb-10 max-md:px-5">
                 Sign up
               </span>
             </div>

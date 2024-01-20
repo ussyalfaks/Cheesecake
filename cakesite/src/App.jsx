@@ -5,6 +5,7 @@ import Header from './Components/Header';
 import Aboutsec from './Components/About';
 import Menu from './Components/Menu';
 import Blog from './Components/Blog';
+import ContactUs from './Components/Contact';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
      <Aboutsec/>
      <Menu/>
      <Blog/>
+     <ContactUs/>
     </>
   );
 }
