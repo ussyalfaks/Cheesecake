@@ -3,8 +3,6 @@ import Blog1 from "../assets/Blog1.png"
 import Blog2 from "../assets/Blog2.png"
 import Blog3 from "../assets/Blog3.png"
 
-
-
 function Blog() {
   return (
     <>

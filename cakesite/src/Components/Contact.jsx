@@ -3,7 +3,6 @@ import React from 'react'
 function ContactUs() {
   return (
     <>
-
     <form
       className="bg-yellow-900 bg-opacity-90 flex w-full flex-col justify-center items-center mt-32 px-16 py-11 max-md:max-w-full max-md:mt-10 max-md:px-5"
       aria-label="Contact Form"
