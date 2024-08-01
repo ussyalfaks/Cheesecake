@@ -10,6 +10,10 @@
 
 
 
+### Design Credits
+### The design for Cheesecake Delight was created by my friend Amena on Twitter. You can view the original design tweet here: 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Big shoutout to <a href="https://twitter.com/AmenaiSabuwala?ref_src=twsrc%5Etfw">@AmenaiSabuwala</a> for the awesome design journey on &quot;Cheesecake&quot;! 🍰💻 I transformed her incredible Figma design into a fully functional website using React. It was a pleasure turning your vision into reality! 🙌 <br>Check it out here: <a href="https://t.co/PkX1LAhzbI">https://t.co/PkX1LAhzbI</a> <a href="https://t.co/9KpCrApvcI">pic.twitter.com/9KpCrApvcI</a></p>&mdash; U.Alfaki (@usman_alfaki) <a href="https://twitter.com/usman_alfaki/status/1747335683998630234?ref_src=twsrc%5Etfw">January 16, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Live Demo
 ### Check out the live demo of the Cheesecake Delight website here: 
